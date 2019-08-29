@@ -1,0 +1,20 @@
+name       : python-precise-runner
+version    : 0.3.1
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/61/59/ffa7b37956d898d1d9f81eff6083661015ecc5d08645fcf7e8dee502c577/precise-runner-0.3.1.tar.gz : 1a464209fb4bf0a3f5d5a428310cb2a70487a01a6bc3a960d1dda90af896b80d
+license    : Apache-2.0
+component  : programming.python
+summary    : A lightweight, simple-to-use, RNN wake word listener.
+description: |
+    Precise is a wake word listener. Like its name suggests, a wake word listener's job is to continually listen to sounds and speech around the device, and activate when the sounds or speech match a wake word.
+builddeps  :
+    - PyAudio
+rundeps    :
+    - PyAudio
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test

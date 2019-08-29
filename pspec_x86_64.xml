@@ -1,0 +1,45 @@
+<PISI>
+    <Source>
+        <Name>python-precise-runner</Name>
+        <Packager>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Packager>
+        <License>Apache-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">A lightweight, simple-to-use, RNN wake word listener.</Summary>
+        <Description xml:lang="en">Precise is a wake word listener. Like its name suggests, a wake word listener&apos;s job is to continually listen to sounds and speech around the device, and activate when the sounds or speech match a wake word.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-precise-runner</Name>
+        <Summary xml:lang="en">A lightweight, simple-to-use, RNN wake word listener.</Summary>
+        <Description xml:lang="en">Precise is a wake word listener. Like its name suggests, a wake word listener&apos;s job is to continually listen to sounds and speech around the device, and activate when the sounds or speech match a wake word.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner-0.3.1-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner-0.3.1-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner-0.3.1-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner-0.3.1-py3.6.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner-0.3.1-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner-0.3.1-py3.6.egg-info/zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner/__pycache__/runner.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner/__pycache__/util.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner/runner.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/precise_runner/util.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-08-13</Date>
+            <Version>0.3.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Update>
+    </History>
+</PISI>
